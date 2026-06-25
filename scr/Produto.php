@@ -6,4 +6,8 @@ class Produto {
     private $descricao;
     private $preco;
 }
+
+public function exibirproduto(){
+    echo $this->nome;
+}
 ?>
